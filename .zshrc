@@ -9,5 +9,6 @@ source $CONFIG_PATH/alias.sh
 source $CONFIG_PATH/env.sh
 source $CONFIG_PATH/projects.sh
 source $ZSH/oh-my-zsh.sh
+source $CONFIG_PATH/ssh.sh
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
