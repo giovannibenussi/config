@@ -17,3 +17,4 @@ source $CONFIG_PATH/ssh.sh
 chmod +x $SCRIPTS_PATH/*
 export PATH="$PATH:$SCRIPTS_PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH # Macports
