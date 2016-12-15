@@ -14,6 +14,6 @@ source $CONFIG_PATH/projects.sh
 source $ZSH/oh-my-zsh.sh
 source $CONFIG_PATH/ssh.sh
 
-chmod +x $SCRIPTS_PATH/imgcat
+chmod +x $SCRIPTS_PATH/*
 export PATH="$PATH:$SCRIPTS_PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
