@@ -18,3 +18,6 @@ chmod +x $SCRIPTS_PATH/*
 export PATH="$PATH:$SCRIPTS_PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH # Macports
+export LC_ALL=es_ES.UTF-8
+export LANG=es_ES.UTF-8
+export PATH="/usr/local/opt/elasticsearch@1.7/bin:$PATH"
