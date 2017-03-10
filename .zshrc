@@ -7,7 +7,8 @@ export BRAINS_PATH=$HOME/2brains
 export VIRTUALENV_PATH=$BRAINS_PATH/.virtualenvs
 ZSH_THEME="bullet-train"
 # Theme: https://github.com/marianvlad/awesome-iterm
-plugins=(git)
+# plugins=(git)
+plugins=(git bundler osx rake ruby)
 source $CONFIG_PATH/alias.sh
 source $CONFIG_PATH/env.sh
 source $CONFIG_PATH/projects.sh
