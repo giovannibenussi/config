@@ -6,6 +6,9 @@ export DEVELOPMENT_PATH=$HOME/development
 export BRAINS_PATH=$HOME/2brains
 export VIRTUALENV_PATH=$BRAINS_PATH/.virtualenvs
 ZSH_THEME="bullet-train"
+#ZSH_THEME="spaceship"
+SPACESHIP_GIT_SHOW=true
+SPACESHIP_VENV_SHOW=true
 # Theme: https://github.com/marianvlad/awesome-iterm
 # plugins=(git)
 plugins=(git bundler osx rake ruby)
@@ -22,3 +25,4 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH # Macports
 export LC_ALL=es_ES.UTF-8
 export LANG=es_ES.UTF-8
 export PATH="/usr/local/opt/elasticsearch@1.7/bin:$PATH"
+alias vim="/usr/local/Cellar/vim/8.0.0458/bin/vim"
