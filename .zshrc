@@ -3,10 +3,10 @@ SCRIPTS_PATH=$CONFIG_PATH/scripts
 export ZSH=$HOME/.oh-my-zsh
 export TERM="xterm-256color"
 export DEVELOPMENT_PATH=$HOME/development
-export BRAINS_PATH=$HOME/2brains
-export VIRTUALENV_PATH=$BRAINS_PATH/.virtualenvs
-ZSH_THEME="bullet-train"
-#ZSH_THEME="spaceship"
+export VIRTUALENV_PATH=$HOME/development/virtualenvs
+# ZSH_THEME="pure"
+ZSH_THEME="spaceship"
+# ZSH_THEME="dracula"
 SPACESHIP_GIT_SHOW=true
 SPACESHIP_VENV_SHOW=true
 # Theme: https://github.com/marianvlad/awesome-iterm
@@ -26,3 +26,5 @@ export LC_ALL=es_ES.UTF-8
 export LANG=es_ES.UTF-8
 export PATH="/usr/local/opt/elasticsearch@1.7/bin:$PATH"
 alias vim="/usr/local/Cellar/vim/8.0.0458/bin/vim"
+
+alias start_ad_machine='cd /Users/gbenussi/property_simple/nginx-proxy && docker-compose up -d && cd ../ad-machine && docker-compose up'
