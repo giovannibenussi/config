@@ -25,6 +25,6 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH # Macports
 export LC_ALL=es_ES.UTF-8
 export LANG=es_ES.UTF-8
 export PATH="/usr/local/opt/elasticsearch@1.7/bin:$PATH"
-alias vim="/usr/local/Cellar/vim/8.0.0458/bin/vim"
+alias vim="/usr/local/Cellar/vim/8.0.0893/bin/vim"
 
 alias start_ad_machine='cd /Users/gbenussi/property_simple/nginx-proxy && docker-compose up -d && cd ../ad-machine && docker-compose up'
