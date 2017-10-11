@@ -30,3 +30,6 @@ alias vim="/usr/local/Cellar/vim/8.0.0893/bin/vim"
 alias start_ad_machine='cd /Users/gbenussi/property_simple/nginx-proxy && docker-compose up -d && cd ../ad-machine && docker-compose up'
 export PATH=${PATH}:/usr/local/mysql/bin
 # source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+autoload -U promptinit; promptinit
+prompt pure
