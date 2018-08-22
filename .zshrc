@@ -8,7 +8,7 @@ export VIRTUALENV_PATH=$HOME/development/virtualenvs
 # ZSH_THEME="spaceship"
 # ZSH_THEME="dracula"
 ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_medium dir vcs newline status)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs newline status)
 
 # POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_medium)
 # POWERLEVEL9K_CUSTOM_MEDIUM="echo -n '\uF859'"
