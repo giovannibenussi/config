@@ -49,6 +49,9 @@ export PATH=${PATH}:/usr/local/mysql/bin
 eval "$(pyenv init -)"
 alias dps='docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Ports}}\t{{.Status}}\t{{.Mounts}}"'
 alias dcps='docker-compose ps'
+alias cls='colorls'
+alias clsf='colorls -f'
+alias clsd='colorls -d'
 
 # POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs newline status)
 # POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
