@@ -59,3 +59,6 @@ alias clsd='colorls -d'
 
 # source ~/powerlevel9k/powerlevel9k.zsh-theme
 # ZSH_THEME="powerlevel9k/powerlevel9k"
+
+alias notify='NOTI_SLACK_CHANNEL=@giovanni NOTI_SLACK_TOKEN=xoxp-372445613782-371358804417-430195000260-b921ae9a402825f59863f3cb8b433074 noti'
+alias taketea='notify -t "Tea'"'"'s Ready" -m "Please take your tea." -k utimer -c'
