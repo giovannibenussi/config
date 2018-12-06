@@ -31,6 +31,7 @@ source $CONFIG_PATH/ssh.sh
 chmod +x $SCRIPTS_PATH/*
 export PATH="$PATH:$SCRIPTS_PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+source ~/.rvm/scripts/rvm
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH # Macports
 export LC_ALL=es_ES.UTF-8
 export LANG=es_ES.UTF-8
@@ -45,7 +46,7 @@ export PATH=${PATH}:/usr/local/mysql/bin
 # autoload -U promptinit; promptinit
 # prompt pure
 
-eval "$(pyenv init -)"
+# eval "$(pyenv init -)"
 alias dps='docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Ports}}\t{{.Status}}\t{{.Mounts}}"'
 alias dcps='docker-compose ps'
 alias cls='colorls'
@@ -61,3 +62,8 @@ alias clsd='colorls -d'
 
 alias notify='NOTI_SLACK_CHANNEL=@giovanni NOTI_SLACK_TOKEN=xoxp-372445613782-371358804417-433489701664-3177aa6731c038ef06e0320160da3504 noti'
 alias taketea='notify -t "Tea'"'"'s Ready" -m "Please take your tea." -k utimer -c'
+export PATH=${PATH}:/Users/gbenussi/Library/Python/2.7/bin
+
+export GOROOT=/usr/local/Cellar/go/1.11.2/libexec
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
