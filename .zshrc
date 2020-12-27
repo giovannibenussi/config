@@ -57,11 +57,6 @@ alias clsd='colorls -d'
 # POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 # POWERLEVEL9K_MODE='nerdfont-complete'
 
-# source ~/powerlevel9k/powerlevel9k.zsh-theme
-# ZSH_THEME="powerlevel9k/powerlevel9k"
-
-alias notify='NOTI_SLACK_CHANNEL=@giovanni NOTI_SLACK_TOKEN=xoxp-372445613782-371358804417-433489701664-3177aa6731c038ef06e0320160da3504 noti'
-alias taketea='notify -t "Tea'"'"'s Ready" -m "Please take your tea." -k utimer -c'
 export PATH=${PATH}:/Users/gbenussi/Library/Python/2.7/bin
 
 export GOROOT=/usr/local/Cellar/go/1.11.2/libexec
