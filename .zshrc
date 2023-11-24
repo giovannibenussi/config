@@ -9,8 +9,9 @@ export VIRTUALENV_PATH=$HOME/development/virtualenvs
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 #ZSH_THEME="simple"
 
-CONFIG_PATH=$HOME/development/config
+CONFIG_PATH=$HOME/dotfiles-local/config
 SCRIPTS_PATH=$CONFIG_PATH/scripts
+echo "Config: $CONFIG_PATH"
 # Theme: https://github.com/marianvlad/awesome-iterm
  #plugins=(git)
 export NVM_LAZY_LOAD=true
@@ -64,3 +65,14 @@ export SPACESHIP_DIR_TRUNC_REPO=false
 export SPACESHIP_TIME_SHOW=true
 
 export HOMEBREW_NO_AUTO_UPDATE=1
+
+#alias tat=tmux new -s `basename $PWD`
+function tat() {
+  tmux new -s `basename $PWD`
+}
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+eval "$(github-copilot-cli alias -- "$0")"
+
