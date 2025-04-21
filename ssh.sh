@@ -1,3 +1,6 @@
+autoload -Uz compinit
+compinit
+
 function tabc() {
   NAME=$1; if [ -z "$NAME" ]; then NAME="Default"; fi
   # if you have trouble with this, change
