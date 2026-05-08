@@ -20,3 +20,7 @@ function tat {
     tmux new-session -s "$name"
   fi
 }
+
+alias cl='fc -ln -1 | pbcopy'
+alias sgd='gd | delta --side-by-side'
+alias sgds='gds | delta --side-by-side'
