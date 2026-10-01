@@ -1,0 +1,19 @@
+alias.sh
+  s_8be4f94bdc0e3d::t_0eb29c26eeeff4 27-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e706297599123b2b957cc8e6cbab291dfc332a5d",
+  "prompts": {},
+  "sessions": {
+    "s_8be4f94bdc0e3d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "98d0c728-bb7a-4ea7-a8e1-f851d5e77df2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Giovanni <giovanni.benussi.paredes@gmail.com>"
+    }
+  }
+}
